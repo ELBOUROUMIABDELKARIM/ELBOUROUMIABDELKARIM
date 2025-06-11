@@ -69,7 +69,7 @@ I'm a passionate **Software Engineer** specializing in **Java**, **distributed s
 
 ## 💬 Languages
 
-- 🇫🇷 French: Advanced (TCF B2 – 426)
+- 🇫🇷 French: Advanced
 - 🇬🇧 English: Intermediate to Advanced
 - 🇲🇦 Arabic: Native
 
