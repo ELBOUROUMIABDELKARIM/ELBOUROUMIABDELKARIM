@@ -1,98 +1,119 @@
 <!--
   GitHub Profile README — Abdelkarim El Bouroumi
-  To use this: create a repo named EXACTLY the same as your GitHub username
-  (e.g. github.com/karimloco4/karimloco4) and put this file in it as README.md.
-  Then replace every `YOUR_USERNAME` placeholder below with your actual handle.
+  Concept: RPG character sheet. A different metaphor from your portfolio.
+
+  Setup:
+  1. Create a repo named EXACTLY your GitHub username (e.g. karimloco4/karimloco4)
+  2. Drop this file in as README.md
+  3. Find/replace YOUR_USERNAME with your real handle (8 spots)
+  4. Replace YOUR_LINKEDIN with your linkedin slug
 -->
 
 <div align="center">
 
-<!-- Animated banner — types your roles -->
-<a href="https://github.com/YOUR_USERNAME">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=2800&pause=900&color=64FFDA&center=true&vCenter=true&width=820&height=70&lines=Hi+there%2C+I'm+Abdelkarim+%F0%9F%91%8B;Software+Engineer+%E2%80%A2+Microservices+Architect;Java+%2F+Spring+%E2%80%A2+Kubernetes+%E2%80%A2+PostgreSQL;Building+distributed+systems+%E2%9A%A1" alt="typing banner" />
-</a>
+# ⚔️ Abdelkarim "Karim" El Bouroumi
+
+### `CLASS: Backend Mage` &nbsp;·&nbsp; `LEVEL: 25` &nbsp;·&nbsp; `GUILD: Norsys`
 
 <br/>
 
-```ansi
-[36m$[0m kubectl describe engineer/abdelkarim
-[32m✔[0m  STATUS:        Running
-[32m✔[0m  LOCATION:      Bouznika, Morocco 🇲🇦
-[32m✔[0m  ROLE:          Software Engineer @ Norsys
-[32m✔[0m  SPECIALTY:     Microservices · Distributed Systems · DevOps
-[32m✔[0m  UPTIME:        2+ years in production
-[32m✔[0m  COFFEE_LEVEL:  ▓▓▓▓▓▓▓▓░░ 80%
-```
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=720&lines=Welcome+adventurer.+%F0%9F%8E%B2;You+have+encountered+a+wild+Software+Engineer.;Specialty%3A+summoning+microservices+from+the+JVM.;Weakness%3A+frontend+CSS+(working+on+it).;Press+START+to+begin." />
 
 </div>
 
+<br/>
+
 ---
 
-### `> whoami.java`
+## 📜 &nbsp; Character Lore
 
-```java
-@SpringBootApplication
-public class Abdelkarim {
+> A wandering engineer from the coastal lands of **Bouznika, Morocco** 🇲🇦.
+> Trained in the ancient arts of **Java** and **Spring Boot**, now serving in the **Norsys guild of Marrakech**.
+> Known across the kingdom for taming wild microservices and modeling **time-series databases** that don't OOM at 3 AM.
+> Currently on a long campaign to ship the **ROOOX** voice & chatbot platform — slaying bugs and writing tests along the way.
 
-    private final String role         = "Software Engineer";
-    private final String company      = "Norsys · Marrakech";
-    private final String location     = "Bouznika, Morocco";
-    private final String[] focus      = { "microservices", "distributed-systems", "clean-code" };
-    private final String[] languages  = { "العربية (native)", "Français (B2)", "English (B2+)" };
+---
 
-    @Autowired private Curiosity curiosity;
-    @Autowired private Coffee    fuel;
+## 📊 &nbsp; Base Stats
 
-    @Scheduled(cron = "0 0 9 * * MON-FRI")
-    public void buildSomethingCool() {
-        while (fuel.isAvailable()) {
-            ship(features.next())
-                .with(tests())
-                .review()
-                .deployTo("production");
-        }
-    }
-
-    @EventListener
-    public void onNewTech(LearningOpportunity opp) {
-        curiosity.consume(opp); // always-on listener — never disabled
-    }
-}
+```yaml
+INT (Intelligence)   : ▰▰▰▰▰▰▰▰▰░  90   # debug-mode brain
+DEX (Dexterity)      : ▰▰▰▰▰▰▰▰░░  82   # 120 wpm in IntelliJ
+CON (Constitution)   : ▰▰▰▰▰▰▰▰▰▰ 100   # caffeine immunity, lvl max
+WIS (Wisdom)         : ▰▰▰▰▰▰▰▰░░  84   # learns from every prod incident
+CHA (Charisma)       : ▰▰▰▰▰▰▰░░░  73   # tolerable code reviewer
+LCK (Luck)           : ▰▰▰▰░░░░░░  42   # deploys on Friday at own risk
 ```
 
 ---
 
-### `> system.status`
+## 🌳 &nbsp; Skill Tree
+
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables': { 'primaryColor':'#0f1424','primaryTextColor':'#e6edf6','primaryBorderColor':'#64ffda','lineColor':'#a78bfa','tertiaryColor':'#161c33'}}}%%
+graph LR
+    A((🎯 Core)) --> B[Backend Path]
+    A --> C[DevOps Path]
+    A --> D[Frontend Path]
+
+    B --> B1[Java &middot; lvl 25]
+    B --> B2[Spring Boot &middot; lvl 24]
+    B --> B3[Microservices &middot; lvl 22]
+    B3 --> B4[Event-driven &middot; lvl 18]
+    B3 --> B5[Time-series DB &middot; lvl 20]
+
+    C --> C1[Docker &middot; lvl 22]
+    C --> C2[Kubernetes &middot; lvl 19]
+    C2 --> C3[Helm + ArgoCD &middot; lvl 17]
+    C --> C4[GitLab CI/CD &middot; lvl 20]
+
+    D --> D1[Angular &middot; lvl 17]
+    D --> D2[React &middot; lvl 15]
+    D --> D3[Vue / Nuxt &middot; lvl 14]
+```
+
+---
+
+## 🎒 &nbsp; Inventory
+
+| Slot | Item | Rarity | Effect |
+|---|---|---|---|
+| 🗡️ Main weapon | **Java 21** | ★★★★★ Legendary | +21 to backend damage, never expires |
+| 🛡️ Armor | **Spring Boot** | ★★★★★ Legendary | Autoconfigure all the things |
+| 🪄 Wand | **PostgreSQL** | ★★★★☆ Epic | Summons time-series tables on cast |
+| 📜 Spellbook | **Kubernetes** | ★★★★☆ Epic | Orchestrates loyal minions (pods) |
+| 🧪 Potion | **Caffeine** | ★★★☆☆ Rare | +∞ focus for 4h, mild withdrawal after |
+| 🎧 Trinket | **Lo-fi playlist** | ★★★☆☆ Rare | Concentration buff, dispels meetings |
+| 💍 Ring | **Git** | ★★★★★ Legendary | Time travel ability (only forward in practice) |
+
+---
+
+## ⚔️ &nbsp; Active Quests
 
 <table>
 <tr>
-<td valign="top" width="50%">
+<th width="50%">🟢 Main Quest</th>
+<th width="50%">🟡 Side Quests</th>
+</tr>
+<tr>
+<td>
 
-**⚡ Currently shipping**
-- `rooox/callbot-svc` — voice bot for [rooox.fr](https://www.rooox.fr/)
-- Time-series PostgreSQL partitioning
-- Caffeine cache + perf tuning
-- Stats APIs by intent / hour / day
-
-**🎯 Currently leveling up**
-- Advanced GitOps (ArgoCD)
-- Kafka streams patterns
-- Domain-Driven Design
-- Rust (for fun)
+**Ship the ROOOX platform**
+- ✅ Design the callbot (voice bot)
+- ✅ Partition the time-series DB
+- ✅ Caffeine cache + perf tuning
+- 🔄 Stats APIs by intent / hour
+- ⬜ Multi-tenant orchestration
 
 </td>
-<td valign="top" width="50%">
+<td>
 
-**🧠 Recently shipped**
-- `eval/` — anti-cheat exam platform
-- `cnam/` — healthcare APIs + batches
-- `solocal/` — B2B perf optimization
-- `eval/` — Judge0 multi-lang execution
-
-**🎵 Off-duty**
-- Music · Concerts · Cinema · Gaming
-- Open to remote opportunities
-- Always down for a good `git push`
+**Level up these skills**
+- 🔄 Master GitOps with ArgoCD
+- 🔄 Kafka Streams patterns
+- ⬜ Domain-Driven Design
+- ⬜ Rust (for the lolz)
+- ⬜ Read *Designing Data-Intensive Applications*
 
 </td>
 </tr>
@@ -100,109 +121,69 @@ public class Abdelkarim {
 
 ---
 
-### `> tech.stack`
+## 🏆 &nbsp; Achievements Unlocked
 
-###### Languages
-![Java](https://img.shields.io/badge/Java_8--21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-
-###### Backend & Architecture
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Batch](https://img.shields.io/badge/Spring_Batch-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-FF6B6B?style=for-the-badge&logo=icloud&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-###### Frontend
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white)
-
-###### DevOps & Cloud
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![Rancher](https://img.shields.io/badge/Rancher-0075A8?style=for-the-badge&logo=rancher&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
-
-###### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-
-###### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000?style=for-the-badge&logo=intellijidea&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+| Badge | Achievement | Date |
+|:---:|---|---|
+| 🎖️ | **First Production Deploy** — without crashing the cluster | 2023 |
+| 🛡️ | **Bug Slayer** — fixed a critical prod bug in <30 min | 2024 |
+| 🔮 | **Migration Master** — AngularJS → React, no data loss | 2023 |
+| ⚙️ | **Microservice Whisperer** — orchestrated 6 services in harmony | 2024 |
+| 🎓 | **Master of Information Systems** — FSS Marrakech | 2024 |
+| 🌍 | **Polyglot** — fluent in 3 spoken languages, 6+ programming | always |
+| ☕ | **The Caffeinated** — survived a 12h deploy window | 2024 |
+| 🚀 | **GitOps Initiate** — Lyon, 15 days, CNAM | 2025 |
 
 ---
 
-### `> github.metrics`
+## 📓 &nbsp; Quest Log &mdash; Real World Stats
 
 <div align="center">
 
 <a href="https://github.com/YOUR_USERNAME">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=64FFDA&icon_color=A78BFA&text_color=8892B0&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=64FFDA&text_color=8892B0&langs_count=8" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=64FFDA&text_color=8892B0&include_all_commits=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=8892B0&langs_count=8" />
 </a>
 
-<br/>
+<br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=0D1117&stroke=64FFDA&ring=64FFDA&fire=FF7A59&currStreakLabel=64FFDA&sideLabels=8892B0&dates=8892B0&sideNums=A78BFA&currStreakNum=A78BFA" alt="streak" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="trophies" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=0D1117&stroke=A78BFA&ring=64FFDA&fire=FF7A59&currStreakLabel=A78BFA&sideLabels=8892B0&dates=8892B0&sideNums=64FFDA&currStreakNum=64FFDA" alt="streak" />
 
 </div>
 
 ---
 
-### `> activity.graph`
+## 🗣️ &nbsp; Languages Known (the human kind)
 
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0D1117&color=64FFDA&line=A78BFA&point=FF7A59&area=true&hide_border=true)](https://github.com/YOUR_USERNAME)
-
-</div>
-
----
-
-### `> philosophy.md`
-
-> *"Premature optimization is the root of all evil — but so is shipping unmaintainable code at 2 AM."*
-
-**My loop:**
-1. `read` the problem twice
-2. `model` before I code
-3. `ship` small, ship often
-4. `iterate` based on real metrics
-5. `goto 1`
+```yaml
+العربية (Arabic)  : ▰▰▰▰▰▰▰▰▰▰  native tongue
+Français          : ▰▰▰▰▰▰▰▰▰░  advanced (TCF B2 · 426)
+English           : ▰▰▰▰▰▰▰▰░░  upper intermediate
+JavaScript        : ▰▰▰▰▰▰▰▰░░  fluent (the cursed sublanguage)
+```
 
 ---
 
-### `> reach.me`
+## 🎮 &nbsp; Off-Duty Pursuits
+
+When not slaying bugs, you'll find this character:
+
+- 🎵 **At a concert** — live music charges my mana
+- 🎬 **Watching cinema** — story craft fuels system design
+- 🎮 **Gaming** — RPGs and strategy (it shows)
+- 📚 **Reading tech blogs** — engineering blog enjoyer
+- 🔭 **Tinkering** — late-night side projects in random languages
+
+---
+
+## 📡 &nbsp; Send a Raven
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:karimloco4@gmail.com)
+[![Email](https://img.shields.io/badge/karimloco4@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:karimloco4@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Portfolio](https://img.shields.io/badge/Portfolio-64FFDA?style=for-the-badge&logo=githubpages&logoColor=black)](https://YOUR_USERNAME.github.io)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/212674723937)
+[![Portfolio](https://img.shields.io/badge/Portfolio-A78BFA?style=for-the-badge&logo=safari&logoColor=white)](https://YOUR_USERNAME.github.io)
 
 </div>
 
@@ -210,13 +191,12 @@ public class Abdelkarim {
 
 <div align="center">
 
-```
-[36m$[0m echo "thanks for scrolling — let's build something great together"
-[32m✔[0m  process exited with code 0
-```
+### 🎲 &nbsp; Currently rolling for initiative on cool projects.
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=visitors&color=64ffda&style=flat-square" alt="visitors" />
+<sub><em>Profile last updated by IRL Abdelkarim, somewhere between Marrakech and a deploy window.</em></sub>
 
-<sub>⚡ <em>Crafted with `<3` + `{ caffeine }` · running on <code>localhost</code> in Bouznika, MA</em></sub>
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=adventurers+encountered&color=a78bfa&style=flat-square" alt="visitors" />
 
 </div>
